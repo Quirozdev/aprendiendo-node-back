@@ -2,7 +2,7 @@ const http = require("http");
 const exportsFromAnother = require("./another");
 
 // console.log({ exportsFromAnother });
-console.log({ http });
+// console.log({ http });
 
 const companies = [
     {name: "TuTurno", isOnline: true},
@@ -10,7 +10,7 @@ const companies = [
 ];
 
 function requestController() {
-    console.log({ dir: __dirname });
+    console.log({ dir: __dirname }, "xd");
 }
 
 // Configurar nuestro servidor
